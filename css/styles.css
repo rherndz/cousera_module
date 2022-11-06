@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+}
+
+.container{
+    background-color: aqua;
+    text-align: center;
+}
+
+.card-column{
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
