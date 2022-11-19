@@ -61,12 +61,3 @@
 }
 
 
-/*Section Responsive*/
-
-@media (min-width: 950px) and (max-width: 1199px) {
-  
- body{
-  background-color: red;
- }
-
-}
