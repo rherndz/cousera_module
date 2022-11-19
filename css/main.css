@@ -1,6 +1,6 @@
 *{
   font-family: arial;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 .body{
@@ -16,16 +16,17 @@
 .panel__cards{
   background-color: rgba(163, 161, 160, 0.847);
   position:relative;
+  margin:10px auto;
   outline: 3px solid black;
 }
 
 .header__cards{
-  padding: 0 10px;
+  padding: 0 19px;
   display:flex;
-  justify-items: center;
   position:absolute;
   top:0; right:0;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 .card__one{
@@ -42,13 +43,14 @@
 }
 
 .cards__title{
-  font-size: 25px;
-  display: flex;
-  padding: 0 auto;
+  font-size: 19px;
+  letter-spacing: 2px;
+  margin: 0 auto;
 }
 
 .cards__content{
-  margin-top: 2.4rem;
+  margin-top: 1.6rem;
+  padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,4 +61,12 @@
 }
 
 
+/*Section Responsive*/
 
+@media (min-width: 950px) and (max-width: 1199px) {
+  
+ body{
+  background-color: red;
+ }
+
+}
